@@ -1,8 +1,8 @@
 " @Tracked
 " Vim color file
 " Maintainer:  Tumbler Terrall [TumblerTerrall@gmail.com]
-" Last Edited: 04/26/2022 09:11 AM
-" Version:     3.6
+" Last Edited: 05/27/2022 05:06 PM
+" Version:     3.7
 
 " cool help screens
 " :highlight
@@ -51,12 +51,14 @@ hi PmenuSel       cterm=NONE        ctermbg=239 ctermfg=167    gui=NONE       gu
 hi CursorLine     cterm=NONE        ctermbg=238 ctermfg=NONE   gui=NONE       guibg=#454545  guifg=NONE
 hi CursorColumn   cterm=NONE        ctermbg=238 ctermfg=NONE   gui=NONE       guibg=#454545  guifg=NONE
 " The lines that can be turned on to highlight the entire line/column of the cursor
+hi MatchParen     cterm=reverse     ctermbg=3   ctermfg=NONE   gui=NONE       guibg=#008080  guifg=NONE    "DarkCyan
+" Color of the matching parenthesis that the cursor is over.
 hi DiffText       cterm=BOLD        ctermbg=124 ctermfg=NONE   gui=BOLD       guibg=#AA0000  guifg=NONE
 " In a Diff, text that differs but has a matching line
 hi DiffAdd        cterm=BOLD        ctermbg=18  ctermfg=NONE   gui=BOLD       guibg=#000080  guifg=NONE    "DarkBlue
 " In a Diff, text that's in one file but not the other
 hi DiffChange     cterm=BOLD        ctermbg=5   ctermfg=NONE   gui=BOLD       guibg=#8B008B  guifg=NONE    "DarkMagenta
-" In a Diff, text that mataches but is on a line with differing text
+" In a Diff, text that matches but is on a line with differing text
 hi DiffDelete     cterm=BOLD        ctermbg=21  ctermfg=6      gui=BOLD       guibg=#0000FF  guifg=#008B8B "Blue, DarkCyan
 " In a Diff, text that is absent
 hi Folded         cterm=NONE        ctermbg=239 ctermfg=220    gui=NONE       guibg=#4D4D4D  guifg=#FFD700 "grey30, gold
@@ -87,7 +89,7 @@ hi Title          cterm=BOLD        ctermbg=236 ctermfg=167    gui=BOLD       gu
 " When screen is used for output the color of the header (try :set all)
 hi Visual         cterm=NONE        ctermbg=239 ctermfg=167    gui=NONE       guibg=#4D4D4D  guifg=#CD5C5C "grey30, indianred
 hi VisualNOS      cterm=NONE        ctermbg=239 ctermfg=167    gui=NONE       guibg=#4D4D4D  guifg=#CD5C5C "grey30, indianred
-" Visual selction (with mouse or "v") (NOS for compatibility)
+" Visual selection (with mouse or "v") (NOS for compatibility)
 hi WarningMsg     cterm=NONE        ctermbg=236 ctermfg=209    gui=NONE       guibg=bg       guifg=#FA8072 "salmon
 hi WildMenu       cterm=NONE        ctermbg=173 ctermfg=231    gui=NONE       guibg=#CD853F  guifg=#FFFFFF "wheat, black
 " Command-line Tab completion menu
