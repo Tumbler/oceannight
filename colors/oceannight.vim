@@ -1,7 +1,7 @@
 " @Tracked
 " Vim color file
 " Maintainer:  Tumbler Terrall [TumblerTerrall@gmail.com]
-" Last Edited: 05/27/2022 05:06 PM
+" Last Edited: 07/21/2023 04:40 PM
 " Version:     3.7
 
 " cool help screens
@@ -51,7 +51,7 @@ hi PmenuSel       cterm=NONE        ctermbg=239 ctermfg=167    gui=NONE       gu
 hi CursorLine     cterm=NONE        ctermbg=238 ctermfg=NONE   gui=NONE       guibg=#454545  guifg=NONE
 hi CursorColumn   cterm=NONE        ctermbg=238 ctermfg=NONE   gui=NONE       guibg=#454545  guifg=NONE
 " The lines that can be turned on to highlight the entire line/column of the cursor
-hi MatchParen     cterm=reverse     ctermbg=3   ctermfg=NONE   gui=NONE       guibg=#008080  guifg=NONE    "DarkCyan
+hi MatchParen     cterm=NONE        ctermbg=30  ctermfg=NONE   gui=NONE       guibg=#008080  guifg=NONE    "DarkCyan
 " Color of the matching parenthesis that the cursor is over.
 hi DiffText       cterm=BOLD        ctermbg=124 ctermfg=NONE   gui=BOLD       guibg=#AA0000  guifg=NONE
 " In a Diff, text that differs but has a matching line
